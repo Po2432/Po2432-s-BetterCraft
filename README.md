@@ -1,2 +1,7 @@
-This Minecraft mod adds useful and funny tools, blocks, items and more.
-Curseforge Page:https://www.curseforge.com/minecraft/mc-mods/po2432s-bettercraft
+# This Minecraft Mod
+
+This Minecraft mod adds useful and funny tools, blocks, items, and more.
+
+## CurseForge Page
+[po2432's BetterCraft](https://www.curseforge.com/minecraft/mc-mods/po2432s-bettercraft)
+

@@ -20,6 +20,12 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
+**Game version**
+Game and modloader version for example Minecraft 1.20.1 Forge 47.1.0
+
+**Mod Version**
+The version of the BetterCraft you are using
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 

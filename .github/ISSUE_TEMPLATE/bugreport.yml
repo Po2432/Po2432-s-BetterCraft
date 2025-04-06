@@ -43,3 +43,13 @@ body:
     validations:
      required: true
        
+- type: dropdown
+    id: mod_version
+    attributes:
+      label: "Mod Version"
+      description: "Select the mod version."
+      options:
+        - "1.0.0"
+        - "1.1.0"
+    validations:
+     required: true

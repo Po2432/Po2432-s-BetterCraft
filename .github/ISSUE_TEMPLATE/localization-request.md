@@ -10,5 +10,5 @@ assignees: ''
 **Language**
 Which language did you translate
 
-**Additional İnfromation**
-Any additional information you want to add
+**Language File**
+Please attach the *.json language file here. DO NOT copy/paste the files contents into this form.

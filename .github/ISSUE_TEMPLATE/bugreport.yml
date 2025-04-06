@@ -69,7 +69,7 @@ body:
   - type: textarea
    id: modloader_version
    attributes:
-     label: "Modloader Version"
+     label: "ModloaderVersion"
      description: "Enter the Modloader version."
      placeholder: "47.3.0"
    validations:

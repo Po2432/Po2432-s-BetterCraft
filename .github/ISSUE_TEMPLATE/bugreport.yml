@@ -1,0 +1,65 @@
+name: Bug Report
+description: Create a bug report
+title: "[Bug] Short Description of the Problem"
+labels:
+  - bug
+body:
+  - type: textarea
+    id: describe_the_bug
+    attributes:
+      label: "Describe the Bug"
+      description: "A clear and concise description of what the bug is."
+      placeholder: "E.g., When I click on the button, the app crashes."
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      description: "List the steps to replicate the issue."
+      placeholder: "1. Open the app\n2. Click on the button\n3. Observe the crash."
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: "Expected Behavior"
+      description: "Describe what you expected to happen."
+      placeholder: "E.g., The app should perform the action without crashing."
+      required: true
+
+  - type: dropdown
+    id: game_version
+    attributes:
+      label: "Game Version"
+      description: "Select the version of the game."
+      options:
+        - "1.20.1"
+        - "1.21.1"
+      required: true
+
+  - type: dropdown
+    id: mod_version
+    attributes:
+      label: "Mod Version"
+      description: "Select the version of the mod."
+      options:
+        - "1.0.0"
+        - "1.1.0"
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: "Screenshots"
+      description: "If applicable, add screenshots to help explain your problem."
+      placeholder: "Provide links or upload images."
+      required: false
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: "Additional Context"
+      description: "Add any other context about the problem here."
+      placeholder: "E.g., Occurs only on specific devices or settings."
+      required: false

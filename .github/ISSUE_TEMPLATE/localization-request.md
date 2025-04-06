@@ -1,6 +1,6 @@
 ---
-name: Localization Request
-about: Translation Request
+name: Translation Upload
+about: Translation Upload
 title: ''
 labels: 'type: translation'
 assignees: ''
@@ -8,10 +8,7 @@ assignees: ''
 ---
 
 **Language**
-Which language you want
-
-**Reliable sources**
-Reliable sources for translating
+Which language did you translate
 
 **Additional İnfromation**
 Any additional information you want to add

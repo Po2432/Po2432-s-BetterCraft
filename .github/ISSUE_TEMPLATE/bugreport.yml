@@ -1,4 +1,4 @@
-name: "Bug Report1"
+name: "Bug Report"
 description: Create a bug report
 title: "BUG: ISSUE_DESCRIPTION"
 labels: [ "type: bug" ]
@@ -41,9 +41,9 @@ body:
         - "1.20.1"
         - "1.21.1"
     validations:
-     required: true
-       
-- type: dropdown
+      required: true
+
+  - type: dropdown
     id: mod_version
     attributes:
       label: "Mod Version"
@@ -52,4 +52,4 @@ body:
         - "1.0.0"
         - "1.1.0"
     validations:
-     required: true
+      required: true

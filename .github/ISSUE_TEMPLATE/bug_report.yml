@@ -23,9 +23,7 @@ body:
         4. 
     validations:
       required: true
-      pattern: "^(https?:\\/\\/)?([\\da-z.-]+)\\.([a-z.]{2,6})([\\/\\w .-]*)*\\/?$"
-
-
+      
   - type: textarea
     id: expected_behavior
     attributes:

@@ -65,3 +65,12 @@ body:
         - "Fabric"
     validations:
       required: true
+
+- type: input
+  id: modloader_version
+  attributes:
+    label: "Modloader Version"
+    description: "Enter the Modloader version."
+    placeholder: "47.3.0"
+  validations:
+    required: true

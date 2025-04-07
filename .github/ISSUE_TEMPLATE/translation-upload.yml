@@ -13,7 +13,7 @@ body:
         required: true
     - type: input
       attributes:
-        label: Accredation
+        label: Accreditation
         description: Please state the name you wish to be credited under on the Translation Info wiki page. If you do not wish to be credited, simply say "anonymous"
         placeholder: e.x. Po2432
       validations:

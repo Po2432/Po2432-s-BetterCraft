@@ -21,7 +21,6 @@ body:
     - type: textarea
       attributes:
         label: Language File
-        description: Please attach the *.json language file here. DO NOT copy/paste the files contents into this form. 
-      validations:
+        description: Please attach the *.json language file here. DO NOT copy/paste the file's contents into this form.
         required: true
         

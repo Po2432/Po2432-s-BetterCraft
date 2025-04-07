@@ -20,9 +20,10 @@ body:
       placeholder: e.x. Po2432
       validations:
         required: true
-         - type: textarea
-      attributes:
-        label: Language File
+
+    - type: textarea
+       attributes:
+         label: Language File
         description: Please attach the *.json language file here. DO NOT copy/paste the files contents into this form.
       validations:
         required: true

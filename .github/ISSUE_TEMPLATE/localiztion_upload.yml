@@ -5,25 +5,26 @@ labels: [ "type: translation" ]
 body:
 - type: input
 attributes:
-label: Language Name
-description: Please state the name of the language this is a translation for (for use in the Translation Info wiki page).
-placeholder: e.x. Lolcatz
-validations:
-required: true
+  label: Language Name
+  description: Please state the name of the language this is a translation for (for use in the Translation Info wiki page).
+    placeholder: e.x. Lolcatz
+    validations:
+     required: true
+
 - type: input
 attributes:
-label: Accredation
-description: Please state the name you wish to be credited under on the Translation Info wiki page. If you do not wish to be credited, simply say "anonymous"
-placeholder: e.x. Po2432
-validations:
-required: true
+  label: Accredation
+  description: Please state the name you wish to be credited under on the Translation Info wiki page. If you do not wish to be credited, simply say "anonymous"
+    placeholder: e.x. Po2432
+    validations:
+      required: true
      
 - type: file
 id: localization_file
-attributes:
-label: "Language File"
-description: "Please attach the *.json language file here.."
-accept:
-- ".json"
-validations:
-required: true
+  attributes:
+    label: "Language File"
+    description: "Please attach the *.json language file here.."
+    accept:
+    - ".json"
+      validations:
+        required: true

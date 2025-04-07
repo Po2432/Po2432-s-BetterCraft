@@ -1,4 +1,4 @@
-name: "Translation Upload"
+name: "Translation Uploads"
 description: Provide a language translation of this mod
 title: "Translation: LANGUAGE"
 labels: [ "type: translation" ]

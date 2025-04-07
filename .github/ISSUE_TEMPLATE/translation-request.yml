@@ -1,9 +1,8 @@
-name: Translation Upload
+name: "Translation Upload"
 description: Provide a language translation of this mod
 title: "Translation: LANGUAGE"
 labels: [ "type: translation" ]
-assignees:
-  - Lightman314
+
 body:
     - type: input
       attributes:

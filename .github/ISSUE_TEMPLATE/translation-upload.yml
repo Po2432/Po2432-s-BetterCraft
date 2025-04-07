@@ -22,5 +22,5 @@ body:
       attributes:
         label: Language File
         description: Please attach the *.json language file here. DO NOT copy/paste the file's contents into this form.
-    
-        
+          validations:
+        required: true
